@@ -1,14 +1,24 @@
 {
     "name": "weather-project",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "main": "public/server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node public/server.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1"
-    }
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/peapong/weather-project02.git"
+    },
+    "bugs": {
+        "url": "https://github.com/peapong/weather-project02/issues"
+    },
+    "homepage": "https://github.com/peapong/weather-project02#readme",
+    "description": ""
 }
